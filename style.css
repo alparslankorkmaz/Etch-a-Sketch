@@ -5,14 +5,24 @@ body {
 }
 
 .container {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   max-width: 21em;
+  max-height: 21em;
+  padding: 2%;
 }
 
 .square {
-  color: blue;
   border: 1px solid black;
   display: inline-block;
   width: 1em;
   height: 1em;
   margin: 1px;
+}
+
+.button {
+  margin: 1em;
 }
